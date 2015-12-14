@@ -2,15 +2,16 @@ package adapter;
 
 import java.util.List;
 
-public class SomadorExistente {
+public class SomadorExistente implements SomadorEsperado {
 
-	
-	private int[] adapta(List<Integer> list){
-		int[] listaInt = new int[list.size()];
-		for(int i=0; i<=list.size(); i++){
-			listaInt[i]= list.get(i);
-		}
-		return listaInt;
+	private List<Integer> lista;
+
+	public int somaLista(List<Integer> lista) {
+		this.lista = lista;
+		int resultado = 0;
+		for (int i : lista)
+			resultado += i;
+		return resultado;
 	}
 
 	@Override
@@ -23,5 +24,4 @@ public class SomadorExistente {
 		
 		return total;
 	}
-
 }

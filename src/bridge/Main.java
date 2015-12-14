@@ -1,8 +1,10 @@
-package pack;
+package bridge;
+
 
 public class Main {
 	public static void main(String[] args) {
-		ListaAbstrata listaAbstrata = new ListaNaoOrdenada(new ListaImpressaComNumeros());
+		ListaAbstrata listaAbstrata = new ListaNaoOrdenada(
+				new ListaImpressaComNumeros());
 		listaAbstrata.adicionar(6);
 		listaAbstrata.adicionar(1);
 		listaAbstrata.adicionar(9);
@@ -11,9 +13,9 @@ public class Main {
 		listaAbstrata.adicionar(5);
 		listaAbstrata.adicionar(2);
 		listaAbstrata.lista.imprimir();
-		
+
 		listaAbstrata = new ListaOrdenada(new ListaImpressaComLetras());
 		listaAbstrata.lista.imprimir();
-		
+
 	}
 }
