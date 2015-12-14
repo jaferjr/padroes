@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public class JogadorClient {
 	public static void main(String[] args) {

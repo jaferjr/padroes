@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public class JogoDeLuta implements Jogo{
 

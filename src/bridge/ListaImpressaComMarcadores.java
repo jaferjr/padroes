@@ -1,4 +1,4 @@
-package pack;
+package bridge;
 
 public class ListaImpressaComMarcadores implements ListaImplementada {
 

@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public class Joystick {
 	public void executarComandoBotaoA(BotaoCommand botaoCommand, Jogo jogo) {

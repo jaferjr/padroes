@@ -1,4 +1,4 @@
-package pack;
+package decorator;
 
 public class Topo extends YogurtDecorador {
 	private double custo;

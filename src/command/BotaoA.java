@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public class BotaoA implements BotaoCommand{
 	public void processarComando(String acao, String tipoDoJogo){

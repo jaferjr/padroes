@@ -1,4 +1,4 @@
-package pack;
+package decorator;
 
 public class Base implements Yogurt {
 	private double custo = 0;

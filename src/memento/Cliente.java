@@ -1,4 +1,4 @@
-package pack;
+package memento;
 
 import java.util.Scanner;
 

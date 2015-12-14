@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public interface Jogo {
 	public String getAcaoA();

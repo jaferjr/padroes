@@ -1,4 +1,4 @@
-package pack;
+package memento;
 
 public class TextoMemento {
 	protected String estadoTexto;
