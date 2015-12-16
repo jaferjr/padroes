@@ -35,9 +35,7 @@ public class Congresso {
 	}
 
 	public void imprimeParticipantes() {
-		for (Participante participante : participantes) {
-			System.out.println(participante.getNome());
-		}
+		
 	}
 
 }

@@ -55,7 +55,11 @@ public class Instituicao implements Participante{
 		return tamanho;
 	}
 
-	
+	public void imprimeParticipante(){
+		for (Participante participante : membrosDaInstituicao) {
+			System.out.println(participante);
+		}
+	}
 	
 	
 	

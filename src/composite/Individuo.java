@@ -43,6 +43,13 @@ public class Individuo implements Participante{
 	public int getTamanho() {
 		return tamanho;
 	}
+
+
+
+	@Override
+	public void imprimeParticipante() {
+		System.out.println(getNome());
+	}
 	
 	
 

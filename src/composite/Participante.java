@@ -13,7 +13,7 @@ public interface Participante {
 
 	int getTamanho();
 	
-	
+	void imprimeParticipante();
 	
 	
 	
