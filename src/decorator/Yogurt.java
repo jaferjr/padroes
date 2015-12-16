@@ -1,4 +1,4 @@
-package pack;
+package decorator;
 
 public interface Yogurt {
 	public double getCusto();

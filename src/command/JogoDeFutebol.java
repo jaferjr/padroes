@@ -1,4 +1,4 @@
-package pack;
+package command;
 
 public class JogoDeFutebol implements Jogo{
 	@Override

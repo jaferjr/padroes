@@ -1,4 +1,4 @@
-package pack;
+package decorator;
 
 public class YogurtDecorador implements Yogurt {
 	protected Yogurt yogurtDecorado;
